@@ -1,14 +1,6 @@
-# Project 0
+### Project 0
 
-index.html structure is diveded in 2 containers one is responseble for the navigation bar
-the other one holds the welcome message and a image.
-
-contacts.html structure is diveded in 2 containers one is responseble for the navigation bar
-the other one has a table with the contact information.
-
-aboutme.html structure is diveded in 2 containers one is responseble for the navigation bar
-the other holds a grid with a list and a paragraph with the resumed information.
-
-hobbies.html  structure is diveded in 3 containers the first one is responseble for the navigation bar the other 2 having galleries of images.
-
-
+- Index page is the home page, you can navigate to any from from with in any page.
+- The project uses SCSS to compile into css, also uses bootstrap 4 for some componentes such nas navigation bar and gallery.
+- The navigation bar we use Inheritance from scss to change the colors but mantain the same font, size and space.
+- List was used to on the skills section on the about me page, also a @media as added so when the screen is less then 600px the text will be hidden.
