@@ -61,12 +61,32 @@ p {
   font-family: sans-serif;
 }
 
+.contact_page, .hobbie_page, .about_page, .home_page {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 .home_page {
   background-color: burlywood;
 }
 
 .about_page {
   background-color: yellowgreen;
+}
+
+.hobbie_page {
+  background-color: whitesmoke;
+}
+
+.contact_page {
+  background-color: salmon;
+}
+
+#my_skills {
+  list-style-position: inside;
 }
 
 /*# sourceMappingURL=my_colors.css.map */

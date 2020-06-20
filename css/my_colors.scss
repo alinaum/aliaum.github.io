@@ -72,9 +72,25 @@ p {
 }
 
 .home_page {
+    @extend %my_links;
     background-color: burlywood;
 }
 
 .about_page {
+    @extend %my_links;
     background-color: yellowgreen;
+}
+
+.hobbie_page {
+    @extend %my_links;
+    background-color: whitesmoke;
+}
+
+.contact_page {
+    @extend %my_links;
+    background-color: salmon;
+}
+
+#my_skills {
+    list-style-position: inside;
 }
